@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="COOL.Errors" uuid="e8f7225e-b475-4b51-99a3-7fc2d54063f3" moduleVersion="0" compileInMPS="true">
+<solution name="COOL.Errors" uuid="e8f7225e-b475-4b51-99a3-7fc2d54063f3" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
   <facets>
-    <facet type="java">
+    <facet type="java" compile="mps" classes="mps" ext="no">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">526480f5-bacc-4675-9b15-2ee50ab219c2(COOL)</dependency>
   </dependencies>

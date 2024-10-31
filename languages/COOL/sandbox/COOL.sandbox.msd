@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="COOL.sandbox" uuid="dd350056-462c-45c3-a234-9044583fdcba" moduleVersion="0" compileInMPS="true">
+<solution name="COOL.sandbox" uuid="dd350056-462c-45c3-a234-9044583fdcba" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
   <facets>
-    <facet type="java">
+    <facet type="java" compile="mps" classes="mps" ext="no">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">82ded43d-ccb5-4a7e-ad32-56c0a910e31a(COOL.runtime)</dependency>

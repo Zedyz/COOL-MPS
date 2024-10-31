@@ -14,7 +14,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="3717301156197626279" name="jetbrains.mps.lang.core.structure.BasePlaceholder" flags="ng" index="3DQ70j" />
@@ -28,7 +28,7 @@
         <reference id="5502555585688627121" name="clRef" index="2d$Iqn" />
       </concept>
       <concept id="6295492542540361960" name="COOL.structure.PlusOperation" flags="ng" index="2roMnO" />
-      <concept id="6295492542540361957" name="COOL.structure.IArithmeticOperation" flags="ng" index="2roMnT">
+      <concept id="6295492542540361957" name="COOL.structure.IArithmeticOperation" flags="ngI" index="2roMnT">
         <child id="6295492542540361965" name="right" index="2roMnL" />
         <child id="6295492542540361963" name="left" index="2roMnR" />
       </concept>
@@ -76,7 +76,7 @@
         <reference id="126878559839010379" name="type" index="314ZOF" />
         <child id="126878559839010384" name="expr" index="314ZOK" />
       </concept>
-      <concept id="126878559839010297" name="COOL.structure.IExpression" flags="ng" index="314ZUp" />
+      <concept id="126878559839010297" name="COOL.structure.IExpression" flags="ngI" index="314ZUp" />
       <concept id="126878559839010220" name="COOL.structure.Class" flags="ng" index="314ZVc">
         <child id="7638836073909232606" name="inherits" index="2KNzGL" />
         <child id="126878559839010281" name="features" index="314ZU9" />
